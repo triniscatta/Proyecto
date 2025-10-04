@@ -63,48 +63,51 @@ section h2 {
   margin-bottom: 1rem;
 }
 
-#Oraciones table {
+#Frases table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
-  background-color: #75a8bd ;
-  box-shadow: 0 2px 8px rgba(89, 96, 105, 0.1);
+  background-color: #5fa0bc ;
+  box-shadow: 0 2px 8px rgba(152, 181, 219, 0.1);
 }
-#Oraciones th {
+#Frases th {
   background-color:  #528daa; 
-  color: #0c1f29;
+  color: #1c4962;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 
-#Oraciones th,
-#Fragmento th {
+#Frases th,
+#Contexto th {
   padding: 12px 15px;
   text-align: left;
   border-bottom: 1px solid #538499;
 }
 
 
-#Fragmentos  tr {
+#Contexto  tr {
   background-color: #2c455a; 
   color: #6da7cb;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
-#Oraciones th {
+#Frases th {
   font-size: 24px;
 }
-#Oraciones td {
+#Frases td {
   font-size:20px;
 }
 
 
-#frases tr:hover {
+#Frases tr:hover {
   background-color: #3f4d99;
   transition: background-color 0.3s ease;
+}
+#Video{
+ text-align: center;
 }
 
 #Virtudes table {
