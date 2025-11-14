@@ -194,4 +194,78 @@ footer a:hover {
   color: rgb(83, 151, 177);
 }
 
+#abrirTrivia {
+    background-color: #0ea5a0;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+#abrirTrivia:hover {
+    background-color: #0b827e;
+    transform: scale(1.07);
+}
+
+
+#jugar-trivia {
+    text-align: center;
+    padding: 30px;
+    background: #e6fafa;
+    border-radius: 15px;
+    margin: 40px auto;
+    width: 80%;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,0.55);
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contenido {
+    background: #1194a0;
+    padding: 25px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 650px;
+    max-height: 85vh;
+    overflow-y: auto;
+    color: white;
+}
+
+.cerrar {
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+.cerrar:hover {
+    color: #ffdddd;
+}
+
+
+.correcta {
+    color: #b8ffb8;
+    font-weight: bold;
+}
+
+.incorrecta {
+    color: #ffb8b8;
+    font-weight: bold;
+}
+
+
 
